@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Практическая_работа_9</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="i %283%29.webp" />
+    <None Remove="i %284%29.webp" />
+    <None Remove="png-clipart-laptop-computer-monitors-desktop-computers-computer-monitor-angle-rectangle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Структура\Структура.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="i (3).webp" />
+    <Resource Include="i (4).webp" />
+    <Resource Include="png-clipart-laptop-computer-monitors-desktop-computers-computer-monitor-angle-rectangle.png" />
+  </ItemGroup>
+
+</Project>
